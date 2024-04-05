@@ -1,0 +1,188 @@
+.App {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.8);
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+.container-header{
+  margin-left: 15px;
+}
+.container-chat{
+ 
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+  min-width: 800px;
+  min-height: 500px;
+}
+.container-top{
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #000;
+  padding: 10px 0px;
+  background-color: #8c8c8c;
+  border-radius: 13px 9px 0px 2px;
+}
+.content-box{
+  position: relative;
+}
+.box-chat{
+  display: flex; 
+  gap: 10px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.container-menssage-left{
+  background-color: rgb(2, 148, 9);
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 50%;
+  margin-bottom: 33px;
+  height: 100%;
+}
+.container-menssage-left .text{
+  color: #fff;
+}
+
+.container-menssage-right{
+  background-color: rgba(0, 0, 0, 0.178); 
+  padding: 5px; 
+  border-radius: 5px; 
+  max-width: 50%; 
+  margin-top: 31px;
+  height: 100%;
+}
+.container-menssage-right .text{
+  color: #fff;
+}
+.container-menssage-resp{
+  background-color: rgb(2, 148, 9); 
+  padding: 5px; 
+  border-radius: 5px; 
+  max-width: 80%; 
+}
+.container-menssage .text-resp{
+  color: #fff;
+}
+.container-bottom{
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #000;
+  padding: 10px 0px;
+  background-color: #8c8c8c;
+  border-radius: 0px 0px 10px 10px;
+}
+.container-send{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 5px;
+  height: 89%;
+
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+  width: 100%;
+  color: #fff;
+}
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root{
+  color: #fff;
+}
+svg{
+  cursor: pointer;
+}
+.box-send{
+  max-width: 1360px;
+  max-height: 795px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  background: rgb(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 13px;
+  position: relative;
+  box-shadow: black 11px 7px 6px 9px;
+}
+.text-limit {
+  width: 80%;
+  color: #fff; 
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  display: flex;
+}
+.container-text{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+::-webkit-scrollbar{
+  width: 10px;
+ 
+
+}
+::-webkit-scrollbar-track{
+  background-color: #8888;
+}
+/*  .choiceMenu ::-webkit-scrollbar-button{
+  background-color: #000;
+
+} */
+
+::-webkit-scrollbar-thumb{
+  background-color:  rgb(0, 0, 0, 0.8);;
+  border-radius: 20px;
+}
+ ::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(0, 0, 0, 1);
+}
+.MuiBox-root {
+  align-items: center;
+  justify-content: center;
+
+}
+.MuiBox-root svg{
+  color: green;
+}
+@media screen and (max-width: 826px) {
+  .container-chat {
+    min-width: 400px;
+    min-height: 400px;
+  }
+  .react-audio-player {
+    width: 246px;
+  }
+}
+@media screen and (max-width: 507px) {
+  .container-chat {
+    min-width: 200px;
+    min-height: 600px;
+
+  }
+  .react-audio-player {
+    width: 184px;
+  }
+}
+@media screen and (max-width: 392px) {
+  .container-chat {
+    min-width: 200px;
+    min-height: 300px;
+
+  }
+  .react-audio-player {  
+    width: 150px;
+  }
+}
