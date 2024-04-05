@@ -25,7 +25,7 @@ export default function Send(props) {
     return (
         <>
             <div className='container-send'>
-                 <TextField id="standard-basic" label="Menssagem" /* disabled={maps ? true : false} */ variant="standard" name="menssagem" value={textDigit.menssagem} onChange={onchange}  onKeyDown={handleKeyDown}/>
+                 <TextField id="standard-basic" label="Mensagem" /* disabled={maps ? true : false} */ variant="standard" name="menssagem" value={textDigit.menssagem} onChange={onchange}  onKeyDown={handleKeyDown}/>
                <SendIcon onClick={click}/> 
             </div>
             
