@@ -178,9 +178,7 @@ svg{
   .text-limit{
     font-size: 10px;
   }
-  .react-audio-player {
-    width: 184px;
-  }
+  
 }
 @media screen and (max-width: 392px) {
   .container-chat {
