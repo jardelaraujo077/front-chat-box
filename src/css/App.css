@@ -180,15 +180,19 @@ svg{
   }
   
 }
+@media screen and (max-width: 410px) {
+  .container-bottom {
+    height: 65px;
+}
+
+}
 @media screen and (max-width: 392px) {
   .container-chat {
     min-width: 200px;
     min-height: 300px;
 
   }
-  .container-bottom {
-    height: 100px;
-}
+ 
 .MuiCircularProgress-root .MuiCircularProgress-indeterminate .MuiCircularProgress-colorPrimary .css-18lrjg1-MuiCircularProgress-root{
   width: 20px;
   height: 20px;
