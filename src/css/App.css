@@ -186,6 +186,13 @@ svg{
     min-height: 300px;
 
   }
+  .container-bottom {
+    height: 100px;
+}
+.MuiCircularProgress-root .MuiCircularProgress-indeterminate .MuiCircularProgress-colorPrimary .css-18lrjg1-MuiCircularProgress-root{
+  width: 20px;
+  height: 20px;
+}
   .react-audio-player {  
     width: 150px;
   }
