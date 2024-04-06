@@ -172,6 +172,12 @@ svg{
     min-height: 600px;
 
   }
+  .container-bottom{
+    height: 184px;
+  }
+  .text-limit{
+    font-size: 10px;
+  }
   .react-audio-player {
     width: 184px;
   }
